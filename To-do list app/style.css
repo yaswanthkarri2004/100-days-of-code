@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Open-sans", sans-serif;
+  height: 100vh;
+  background-color: #eee;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+h1 {
+  text-align: center;
+}
+.to-do {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 50%;
+  padding: 10px;
+}
+.addBtn {
+  cursor: pointer;
+  background-color: #eee;
+  padding: 11px 50px;
+  margin-left: -4px;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+#text {
+  text-align: center;
+}
+.list {
+  max-width: 800px;
+  margin: 50px auto;
+
+  position: relative;
+}
+li {
+  cursor: pointer;
+  list-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 35px;
+  background-color: #fff;
+}
+li.checked {
+  cursor: pointer;
+  background-color: rgb(148, 141, 141);
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.checkBox {
+  background-color: #eee;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
+}
+.close {
+  position: absolute;
+  right: 0;
+  margin: -10px;
+  padding: 10px;
+  background-color: red;
+}
+.close:hover {
+  background-color: red;
+  cursor: pointer;
+}
