@@ -4,5 +4,9 @@
 I am going to create a small projects for 100 days.
 
 Project 1 : Animated Skill bar
+
 Project 2 : To-do list app
+
 Project 3 : Digital Clock
+
+Project 4 : Creating tabs

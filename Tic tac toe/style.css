@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color:#3493DB;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    height: 50%;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    background-color: #3AC2DB;
+    padding: 10px 20px;
+    margin: 10px;
+    border-color: none;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #3AC2DB;
+}
+

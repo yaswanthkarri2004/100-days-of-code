@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Tabs</h1>
+      <p>Click the button to open the tabs</p>
+    </div>
+    <div class="tabs">
+      <button id="tab1" onclick="opencity(event, 'html')" type="button">
+        HTML
+      </button>
+      <button id="tab2" onclick="opencity(event, 'css')" type="button">
+        CSS
+      </button>
+      <button id="tab3" onclick="opencity(event, 'js')" type="button">
+        JS
+      </button>
+    </div>
+    <div id="cont"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

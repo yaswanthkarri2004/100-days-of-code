@@ -1,0 +1,34 @@
+body {
+  margin: 50px auto;
+
+  height: 100vh;
+  font-family: "Open-sans", sans-serif;
+}
+
+.heading {
+  margin-left: 20px;
+}
+
+.tabs {
+  overflow: hidden;
+  margin-left: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  width: 600px;
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.content {
+  padding: 10px 25px;
+  width: 550px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-color: #ccc;
+  margin-left: 20px;
+}
