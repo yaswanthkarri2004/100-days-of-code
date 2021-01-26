@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome checker</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Palindrome checker</h1>
+    <form class="pal">
+      <label for="inputVal">Enter a word to check if it is a Palindrome</label
+      ><br />
+      <input type="text" id="inputVal" />
+      <button type="submit" id="check" onclick="palChecker(event)">
+        Check
+      </button>
+    </form>
+    <div id="result"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
