@@ -12,3 +12,7 @@ Project 3 : Digital Clock
 Project 4 : Creating tabs
 
 Project 5: Building Accordion
+
+Project 6: Palindrome checker
+
+Project 9: Changing background color
