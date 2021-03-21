@@ -15,4 +15,6 @@ Project 5: Building Accordion
 
 Project 6: Palindrome checker
 
-Project 9: Changing background color
+Project 7: Changing background color
+
+Project 8: Random Quotes Generator
